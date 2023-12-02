@@ -1,0 +1,33 @@
+.user .user-name{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    min-width: 150px;
+}
+
+.user .user-name:hover{
+    background-color: aquamarine;
+}
+
+.user .load-next-data{
+    padding-top: 20px;
+    display: block;
+}
+
+.user .load-next-data a{
+    display: inline-block;
+    width: 48%;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+.user .load-next-data a:hover{
+    background: rgb(0, 249, 54);
+}
