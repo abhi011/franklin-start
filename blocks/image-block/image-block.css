@@ -1,0 +1,11 @@
+.image-block{
+    background-color: aqua;
+    height: 392px;
+    width: 600px;
+}
+
+.image-block img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
