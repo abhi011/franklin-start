@@ -1,0 +1,11 @@
+<svg id="email-square-blue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_10" data-name="Clip 10" d="M0,0H25V25H0Z" transform="translate(0.724)" fill="#B8DADE"/>
+    </clipPath>
+  </defs>
+  <path id="Clip_10-2" data-name="Clip 10" d="M0,0H25V25H0Z" transform="translate(0)" fill="none"/>
+  <g id="Group_11" data-name="Group 11" transform="translate(-0.724)" clip-path="url(#clip-path)">
+    <path id="Fill_9" data-name="Fill 9" d="M25,25H0V0H25V25ZM5,9.3v7.225a.38.38,0,0,0,.373.389H19.621a.383.383,0,0,0,.38-.383V9.3l-7.5,3.861ZM5.365,6.41A.363.363,0,0,0,5,6.76v.967l7.5,3.506L20,7.726v-.96a.361.361,0,0,0-.364-.355H5.365Z" transform="translate(1 0)" fill="#B8DADE"/>
+  </g>
+</svg>

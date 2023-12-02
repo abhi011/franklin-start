@@ -20,7 +20,7 @@
   --text-color: #000;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -42,15 +42,7 @@
 
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 100.06%;
-  ascent-override: 95%;
-  src: local('Arial');
-}
-
-
-@media (width >= 900px) {
+@media (min-width: 900px) {
   :root {
     --heading-font-size-xxl: 60px;
     --heading-font-size-xl: 48px;
@@ -72,7 +64,7 @@ body {
 }
 
 body.appear {
-  display: block;
+  display: unset;
 }
 
 header {
@@ -223,7 +215,7 @@ main img {
   width: 24px;
 }
 
-.icon img {
+.icon svg {
   height: 100%;
   width: 100%;
 }
@@ -232,13 +224,13 @@ main .section {
   padding: 64px 16px;
 }
 
-@media (width >= 600px) {
+@media (min-width: 600px) {
   main .section {
     padding: 64px 32px;
   }
 }
 
-@media (width >= 900px) {
+@media (min-width: 900px) {
   .section > div {
     max-width: 1200px;
     margin: auto;
