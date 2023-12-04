@@ -1,4 +1,3 @@
-/* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
@@ -19,6 +18,10 @@ header nav {
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+}
+
+header .icon-wkndlogo svg {
+  max-width: 128px;
 }
 
 header nav[aria-expanded="true"] {
@@ -55,6 +58,13 @@ header nav p {
 
 header nav a:any-link {
   color: currentcolor;
+  text-transform: uppercase;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+header .nav-sections a:hover {
+  background-color: var(--heading-highlight-color);
 }
 
 /* hamburger */
@@ -195,6 +205,8 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav[aria-expanded="true"] .nav-sections {
     align-self: unset;
+    display: flex;
+    justify-content: flex-end;
   }
 
   header nav .nav-sections .nav-drop {
